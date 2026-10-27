@@ -59,6 +59,9 @@ body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);min-
 @keyframes neonFlick{0%,18%,22%,62%,64%,100%{opacity:1}20%,63%{opacity:.55}}
 .hdr.compact .neon{font-size:11px;letter-spacing:1px;margin-bottom:8px}
 .hdr.compact .neon .n2{font-size:9.5px;margin-top:2px}
+[data-theme="light"] .neon{color:#e0008a;text-shadow:0 0 1px #ff4db8,0 0 6px rgba(255,43,214,.75),0 0 14px rgba(255,43,214,.55),0 0 26px rgba(255,43,214,.35);filter:none;animation:neonFlick 5s linear infinite}
+[data-theme="light"] .neon .n2{color:#0077c8;text-shadow:0 0 1px #00b8ff,0 0 6px rgba(0,170,255,.75),0 0 14px rgba(0,170,255,.55),0 0 26px rgba(0,170,255,.35)}
+[data-theme="light"] .neon .nb{animation:none}
 @media (prefers-reduced-motion:reduce){.neon,.neon .nb{animation:none}}
 
 .card{background:var(--card);border-radius:18px;padding:18px;border:1px solid var(--border);box-shadow:0 8px 32px var(--shadow)}
